@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Слова Корана | Интервальное повторение</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="theme-toggle" id="theme-btn" title="Сменить тему" onclick="toggleTheme()">☀️</button>
+
+    <div class="app">
+        <div class="header">
+            <div class="ornament">﴾ بِسْمِ اللَّهِ ﴿</div>
+            <h1>Слова Корана</h1>
+            <p>300 часто встречающихся слов</p>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat"><div class="stat-n" id="s-total">300</div><div class="stat-l">Всего слов</div></div>
+            <div class="stat"><div class="stat-n" id="s-learned">0</div><div class="stat-l">Изучено</div></div>
+            <div class="stat"><div class="stat-n" id="s-review">0</div><div class="stat-l">На повторении</div></div>
+            <div class="stat"><div class="stat-n" id="s-streak">0</div><div class="stat-l">Сессий</div></div>
+        </div>
+
+        <div class="nav" id="nav-bar"></div>
+        <div id="main-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
